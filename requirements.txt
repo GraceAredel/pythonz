@@ -31,3 +31,5 @@ django-xross==0.6.0
 envbox==1.0.0
 uwsgiconf[cli]==0.15.1
 psycopg2==2.8.2
+selenium
+pytest>=4.6.0
