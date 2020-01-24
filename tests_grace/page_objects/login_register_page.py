@@ -25,7 +25,6 @@ class LoginRegisterPage:
         except (NoSuchElementException, TimeoutException):
             return False
 
-
     def fill_username_email_field(self, name_email):
         els = self.driver.find_elements(*LoginPageFieldLocators.USERNAME_OR_EMAIL)
         field = els[0]
